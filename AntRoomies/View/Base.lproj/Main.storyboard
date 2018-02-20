@@ -74,7 +74,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sign in with Google" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7U0-Pe-1oe">
-                                        <rect key="frame" x="113.5" y="269" width="147.5" height="21"/>
+                                        <rect key="frame" x="114" y="256" width="147.5" height="21"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="21" id="h8W-XF-N4c"/>
                                         </constraints>
@@ -85,7 +85,7 @@
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="7U0-Pe-1oe" firstAttribute="centerX" secondItem="TQc-Rr-SHx" secondAttribute="centerX" id="3iJ-ql-OKf"/>
-                                    <constraint firstAttribute="bottom" secondItem="7U0-Pe-1oe" secondAttribute="bottom" constant="8.5" id="UqR-hj-CXq"/>
+                                    <constraint firstAttribute="bottom" secondItem="7U0-Pe-1oe" secondAttribute="bottom" constant="21.5" id="UqR-hj-CXq"/>
                                     <constraint firstItem="4L0-ZC-zr8" firstAttribute="centerX" secondItem="TQc-Rr-SHx" secondAttribute="centerX" id="Y4Z-YJ-JAk"/>
                                     <constraint firstItem="4L0-ZC-zr8" firstAttribute="centerY" secondItem="TQc-Rr-SHx" secondAttribute="centerY" id="c8x-bP-Jw9"/>
                                 </constraints>
@@ -99,10 +99,16 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UY4-nW-w3w">
                                                 <rect key="frame" x="0.0" y="0.0" width="47" height="30"/>
                                                 <state key="normal" title="Sign in"/>
+                                                <connections>
+                                                    <action selector="signInDidTouch:" destination="831-tN-aCW" eventType="touchUpInside" id="R6X-Lb-2iL"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pet-w2-BXN">
                                                 <rect key="frame" x="107" y="0.0" width="52" height="30"/>
                                                 <state key="normal" title="Sign up"/>
+                                                <connections>
+                                                    <action selector="signUpDidTouch:" destination="831-tN-aCW" eventType="touchUpInside" id="OcE-ri-bed"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -128,6 +134,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="WXA-FE-qjG"/>
                     </view>
+                    <connections>
+                        <outlet property="textFieldLoginEmail" destination="EKC-pJ-Yys" id="DAG-Ni-vOx"/>
+                        <outlet property="textFieldLoginPassword" destination="jeo-8m-6Y7" id="aXP-Kq-6NO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ojG-Sa-mUF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

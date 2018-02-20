@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4473422F203CCB8B00C42BC0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4473422E203CCB8B00C42BC0 /* GoogleService-Info.plist */; };
 		44D65C352038AC5900E131E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D65C342038AC5900E131E3 /* AppDelegate.swift */; };
 		44D65C372038AC5900E131E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D65C362038AC5900E131E3 /* ViewController.swift */; };
 		44D65C3A2038AC5900E131E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44D65C382038AC5900E131E3 /* Main.storyboard */; };
 		44D65C3C2038AC5900E131E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44D65C3B2038AC5900E131E3 /* Assets.xcassets */; };
 		44D65C3F2038AC5900E131E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44D65C3D2038AC5900E131E3 /* LaunchScreen.storyboard */; };
 		44D65C4C2038AFD700E131E3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D65C4B2038AFD700E131E3 /* LoginViewController.swift */; };
+		85FA0170C5CE856F0DB4C6F0 /* Pods_AntRoomies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D24C203A909D8C41F7A8BBE /* Pods_AntRoomies.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4473422E203CCB8B00C42BC0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		44D65C312038AC5900E131E3 /* AntRoomies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AntRoomies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44D65C342038AC5900E131E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44D65C362038AC5900E131E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +27,9 @@
 		44D65C3E2038AC5900E131E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		44D65C402038AC5900E131E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44D65C4B2038AFD700E131E3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		6D24C203A909D8C41F7A8BBE /* Pods_AntRoomies.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AntRoomies.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		855E20D7CFFB08EE812D4FC2 /* Pods-AntRoomies.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AntRoomies.release.xcconfig"; path = "Pods/Target Support Files/Pods-AntRoomies/Pods-AntRoomies.release.xcconfig"; sourceTree = "<group>"; };
+		F36FA6854B9C535E94284FC9 /* Pods-AntRoomies.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AntRoomies.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AntRoomies/Pods-AntRoomies.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85FA0170C5CE856F0DB4C6F0 /* Pods_AntRoomies.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1132A65ED05414586C4E7738 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F36FA6854B9C535E94284FC9 /* Pods-AntRoomies.debug.xcconfig */,
+				855E20D7CFFB08EE812D4FC2 /* Pods-AntRoomies.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		44D65C282038AC5900E131E3 = {
 			isa = PBXGroup;
 			children = (
 				44D65C332038AC5900E131E3 /* AntRoomies */,
 				44D65C322038AC5900E131E3 /* Products */,
+				1132A65ED05414586C4E7738 /* Pods */,
+				45EBF3F663114BED96B2E73A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,6 +81,7 @@
 				44D65C3B2038AC5900E131E3 /* Assets.xcassets */,
 				44D65C3D2038AC5900E131E3 /* LaunchScreen.storyboard */,
 				44D65C402038AC5900E131E3 /* Info.plist */,
+				4473422E203CCB8B00C42BC0 /* GoogleService-Info.plist */,
 			);
 			path = AntRoomies;
 			sourceTree = "<group>";
@@ -99,6 +118,14 @@
 			path = Other;
 			sourceTree = "<group>";
 		};
+		45EBF3F663114BED96B2E73A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D24C203A909D8C41F7A8BBE /* Pods_AntRoomies.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +133,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 44D65C432038AC5900E131E3 /* Build configuration list for PBXNativeTarget "AntRoomies" */;
 			buildPhases = (
+				CB12DD8CCAA32C1F1A8038FD /* [CP] Check Pods Manifest.lock */,
 				44D65C2D2038AC5900E131E3 /* Sources */,
 				44D65C2E2038AC5900E131E3 /* Frameworks */,
 				44D65C2F2038AC5900E131E3 /* Resources */,
+				2E215B04B8DEF717AB1E6156 /* [CP] Embed Pods Frameworks */,
+				E69AC6BBEB025605B7CCC292 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -159,12 +189,61 @@
 			buildActionMask = 2147483647;
 			files = (
 				44D65C3F2038AC5900E131E3 /* LaunchScreen.storyboard in Resources */,
+				4473422F203CCB8B00C42BC0 /* GoogleService-Info.plist in Resources */,
 				44D65C3C2038AC5900E131E3 /* Assets.xcassets in Resources */,
 				44D65C3A2038AC5900E131E3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E215B04B8DEF717AB1E6156 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AntRoomies/Pods-AntRoomies-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB12DD8CCAA32C1F1A8038FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E69AC6BBEB025605B7CCC292 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AntRoomies/Pods-AntRoomies-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		44D65C2D2038AC5900E131E3 /* Sources */ = {
@@ -308,6 +387,7 @@
 		};
 		44D65C442038AC5900E131E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F36FA6854B9C535E94284FC9 /* Pods-AntRoomies.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -323,6 +403,7 @@
 		};
 		44D65C452038AC5900E131E3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 855E20D7CFFB08EE812D4FC2 /* Pods-AntRoomies.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

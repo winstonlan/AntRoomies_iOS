@@ -10,6 +10,19 @@ import UIKit
 
 class LoginViewController: UIViewController {
     
+    // MARK: Outlets
+    @IBOutlet weak var textFieldLoginEmail: UITextField!
+    @IBOutlet weak var textFieldLoginPassword: UITextField!
+    
+    // MARK: Actions
+    @IBAction func signInDidTouch(_ sender: Any) {
+        
+    }
+    
+    @IBAction func signUpDidTouch(_ sender: Any) {
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
