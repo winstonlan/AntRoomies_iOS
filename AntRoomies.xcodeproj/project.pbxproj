@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		4473422F203CCB8B00C42BC0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4473422E203CCB8B00C42BC0 /* GoogleService-Info.plist */; };
 		44D65C352038AC5900E131E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D65C342038AC5900E131E3 /* AppDelegate.swift */; };
-		44D65C372038AC5900E131E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D65C362038AC5900E131E3 /* ViewController.swift */; };
+		44D65C372038AC5900E131E3 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D65C362038AC5900E131E3 /* MainViewController.swift */; };
 		44D65C3A2038AC5900E131E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44D65C382038AC5900E131E3 /* Main.storyboard */; };
 		44D65C3C2038AC5900E131E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44D65C3B2038AC5900E131E3 /* Assets.xcassets */; };
 		44D65C3F2038AC5900E131E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44D65C3D2038AC5900E131E3 /* LaunchScreen.storyboard */; };
@@ -21,7 +21,7 @@
 		4473422E203CCB8B00C42BC0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		44D65C312038AC5900E131E3 /* AntRoomies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AntRoomies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44D65C342038AC5900E131E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		44D65C362038AC5900E131E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		44D65C362038AC5900E131E3 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		44D65C392038AC5900E131E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		44D65C3B2038AC5900E131E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44D65C3E2038AC5900E131E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -97,7 +97,7 @@
 		44D65C482038AF6000E131E3 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				44D65C362038AC5900E131E3 /* ViewController.swift */,
+				44D65C362038AC5900E131E3 /* MainViewController.swift */,
 				44D65C4B2038AFD700E131E3 /* LoginViewController.swift */,
 			);
 			path = Controller;
@@ -251,7 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				44D65C4C2038AFD700E131E3 /* LoginViewController.swift in Sources */,
-				44D65C372038AC5900E131E3 /* ViewController.swift in Sources */,
+				44D65C372038AC5900E131E3 /* MainViewController.swift in Sources */,
 				44D65C352038AC5900E131E3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

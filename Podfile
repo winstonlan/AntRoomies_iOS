@@ -6,5 +6,8 @@ target 'AntRoomies' do
   use_frameworks!
 
   # Pods for AntRoomies
-
+  pod 'Firebase/Core'
+  pod 'Firebase/Auth'
+  pod 'GoogleSignIn'
+  
 end
