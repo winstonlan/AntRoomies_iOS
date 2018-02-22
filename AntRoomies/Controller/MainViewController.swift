@@ -10,14 +10,24 @@ import UIKit
 import Firebase
 
 class MainViewController: UIViewController {
+    // MARK: IBActions
+    @IBAction func logoutDidTouch(_ sender: Any) {
+        do {
+            try Auth.auth().signOut()
+        } catch let signOutError as NSError {
+            print("Error signing out: %@", signOutError)
+        }
+        
+        dismiss(animated: true, completion: nil)
+    }
     
+    // MARK: Variables
     var handle: AuthStateDidChangeListenerHandle?
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
         handle = Auth.auth().addStateDidChangeListener { (auth, user) in
-            // ...
             if let user = user {
                 print(user.uid)
             }

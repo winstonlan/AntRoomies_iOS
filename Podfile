@@ -8,6 +8,5 @@ target 'AntRoomies' do
   # Pods for AntRoomies
   pod 'Firebase/Core'
   pod 'Firebase/Auth'
-  pod 'GoogleSignIn'
   
 end
